@@ -1,8 +1,20 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import HomePage from "./Pages/Home";
+import RecipePage from "./Pages/Recipes";
+import AbourPage from "./Pages/About";
+import ContactPage from "./Pages/Contact";
+
 function App() {
   return (
-    <>
-      <h1 className="text-red-600">Hola mundo</h1>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/Recipe" element={<RecipePage />} />
+        <Route path="/About" element={<AbourPage />} />
+        <Route path="/Contact" element={<ContactPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
