@@ -6,7 +6,16 @@ function Header() {
   return (
     <div>
       <div className="flex justify-center items-center">
-        <img className="mx-auto" src="src/assets/img/logobluesky.png" alt="logo" />
+        <a
+          className="hover:opacity-65 hover:transition duration-300 hover:duration-300"
+          href=""
+        >
+          <img
+            className="mx-auto"
+            src="src/assets/img/logobluesky.png"
+            alt="logo"
+          />
+        </a>
       </div>
       <hr className="mt-7 mb-5" />
       <div className="flex justify-center">
