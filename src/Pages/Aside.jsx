@@ -15,7 +15,7 @@ function Aside() {
         <section className="grid grid-flow-col w-96">
           <img
             className="rounded-full"
-            src="src\assets\fotoperfil.png"
+            src="src/assets/img/fotoperfil.png"
             alt=""
           />
           <div className="mr-10">

@@ -6,7 +6,7 @@ function Header() {
   return (
     <div>
       <div className="flex justify-center items-center">
-        <img className="mx-auto" src="src/assets/logobluesky.png" alt="logo" />
+        <img className="mx-auto" src="src/assets/img/logobluesky.png" alt="logo" />
       </div>
       <hr className="mt-7 mb-5" />
       <div className="flex justify-center">
