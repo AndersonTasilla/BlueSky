@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fonstFamily: {
+        'fuentePrincipal': ['Karla', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }

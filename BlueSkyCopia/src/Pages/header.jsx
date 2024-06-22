@@ -12,37 +12,80 @@ function Header() {
       <div className="flex justify-center">
         <ul className="flex space-x-4 mt-2">
           <li className="pr-6 relative">
-            <a className="text-black hover:text-gray-400 transition duration-300 transform hover:scale-105" href="/">
+            <a
+              className="text-black hover:text-gray-400 transition duration-300 transform hover:scale-105"
+              href="/"
+            >
               HOME
             </a>
           </li>
           <li className="pr-6 relative group">
-            <a className="text-black hover:text-gray-400 transition duration-300 transform hover:scale-105" href="/Recipes">RECIPES</a>
+            <a
+              className="text-black hover:text-gray-400 transition duration-300 transform hover:scale-105"
+              href="/Recipes"
+            >
+              RECIPES
+            </a>
             <ul className="absolute w-52 bg-white border-gray-200 mt-1 py-1 hidden group-hover:block">
               <li>
-                <a className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white" href="/Recipes/brakingydessert">BRAKING & DESSERT</a>
-                </li>
-              <li>
-                <a className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white" href="/Recipes/dinner">DINNER</a>
+                <a
+                  className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white"
+                  href="/Recipes/brakingydessert"
+                >
+                  BRAKING & DESSERT
+                </a>
               </li>
               <li>
-                <a className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white" href="/Recipes/breakfast">BREAKFAST</a>
-                </li>
+                <a
+                  className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white"
+                  href="/Recipes/dinner"
+                >
+                  DINNER
+                </a>
+              </li>
+              <li>
+                <a
+                  className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white"
+                  href="/Recipes/breakfast"
+                >
+                  BREAKFAST
+                </a>
+              </li>
             </ul>
           </li>
           <li className="pr-6 relative group">
-            <a className="text-black hover:text-gray-400 transition duration-300 transform hover:scale-105" href="/About">ABOUT</a>
+            <a
+              className="text-black hover:text-gray-400 transition duration-300 transform hover:scale-105"
+              href="/About"
+            >
+              ABOUT
+            </a>
             <ul className="absolute w-52 bg-white border-gray-200 mt-1 py-1 hidden group-hover:block">
               <li>
-                <a className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white" href="/About/workwithme">WORK WITH ME</a>
-                </li>
+                <a
+                  className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white"
+                  href="/About/workwithme"
+                >
+                  WORK WITH ME
+                </a>
+              </li>
               <li>
-                <a className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white" href="/About/portfolio">PORTFOLIO</a>
+                <a
+                  className="block w-full px-4 py-3 text-base text-gray-700 transition duration-300 transform hover:bg-black hover:text-white"
+                  href="/About/portfolio"
+                >
+                  PORTFOLIO
+                </a>
               </li>
             </ul>
           </li>
           <li className="pr-14 relative">
-            <a className="text-black hover:text-gray-400 transition duration-300 transform hover:scale-105" href="/Contact">CONTACT</a>
+            <a
+              className="text-black hover:text-gray-400 transition duration-300 transform hover:scale-105"
+              href="/Contact"
+            >
+              CONTACT
+            </a>
           </li>
         </ul>
         <form className="border rounded-md p-1 border-gray-200">
