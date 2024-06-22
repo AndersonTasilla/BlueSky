@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./header.jsx";
 import Aside from "./Aside.jsx";
-import Formulario from "../Components/Formulario.jsx";
 
 function Home() {
   return (
@@ -22,7 +21,7 @@ function Home() {
             className="transition duration-300 transform hover:opacity-60"
             href=""
           >
-            <img src="src\assets\card1.png" alt="" />
+            <img src="\src\assets\img\card01.png" alt="" />
           </a>
           <a
             className="transition duration-300 transform hover:opacity-60"
