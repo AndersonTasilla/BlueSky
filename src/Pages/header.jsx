@@ -1,7 +1,7 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 import "../style.css";
-import "../assets/img/logobluesky.png";
+import logo from "../assets/img/logobluesky.png";
 
 function Header() {
   return (
@@ -13,7 +13,7 @@ function Header() {
         >
           <img
             className="mx-auto"
-            src="src/assets/img/logobluesky.png"
+            src={logo}
             alt="logo"
           />
         </a>
