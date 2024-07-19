@@ -8,17 +8,17 @@ import {
   FaYoutube,
   FaHeart,
 } from "react-icons/fa";
-import "../assets/img/fotoperfil.png"
-import "../assets/img/card1.png";
-import "../assets/img/card01.png";
-import "../assets/img/card02.png";
-import "../assets/img/card03.png";
-import "../assets/img/card04.png";
-import "../assets/img/card05.png";
-import "../assets/img/card06.jpg";
-import "../assets/img/card07.jpg";
-import "../assets/img/card08.jpg";
-import "../assets/img/feed_wht.jpg";
+import fotoPerfil from "../assets/img/fotoperfil.png"
+import card1 from "../assets/img/card1.png";
+import card01 from "../assets/img/card01.png";
+import card02 from "../assets/img/card02.png";
+import card03 from "../assets/img/card03.png";
+import card04 from "../assets/img/card04.png";
+import card05 from "../assets/img/card05.png";
+import card06 from "../assets/img/card06.jpg";
+import card07 from "../assets/img/card07.jpg";
+import card08 from "../assets/img/card08.jpg";
+import feed from "../assets/img/feed_wht.jpg";
 
 function Aside() {
   return (
@@ -28,7 +28,7 @@ function Aside() {
           <section className="grid grid-flow-col w-96">
             <img
               className="rounded-full"
-              src="src/assets/img/fotoperfil.png"
+              src={fotoPerfil}
               alt=""
             />
             <div className="mr-10">
@@ -87,7 +87,6 @@ function Aside() {
           {/* FORMULARIO */}
           <Formulario />
           <hr className="mt-9 w-80" />
-          {/* INSTAGRAM FOTOS */}
           <div className="mt-16 w-80 ml-6">
             <div className="flex gap-3">
               <a
@@ -120,7 +119,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card1.png"
+                      src={card1}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -140,7 +139,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card01.png"
+                      src={card01}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -160,7 +159,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card02.png"
+                      src={card02}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -180,7 +179,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card03.png"
+                      src={card03}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -200,7 +199,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card04.png"
+                      src={card04}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -220,7 +219,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card05.png"
+                      src={card05}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -240,7 +239,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card06.jpg"
+                      src={card06}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -260,7 +259,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card07.jpg"
+                      src={card07}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -280,7 +279,7 @@ function Aside() {
                   >
                     <img
                       className="h-20 w-20"
-                      src="src/assets/img/card08.jpg"
+                      src={card08}
                       alt="foto"
                     />
                     <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300"></div>
@@ -301,7 +300,7 @@ function Aside() {
           <hr className="mt-16 w-80" />
           <div className="mt-16">
             <a className="hover:opacity-60" href="">
-              <img src="src/assets/img/feed_wht.jpg" alt="foto" />
+              <img src={feed} alt="foto" />
             </a>
           </div>
           <hr className="mt-16 w-80" />

@@ -2,16 +2,16 @@ import React from "react";
 import Header from "./header.jsx";
 import Aside from "./Aside.jsx";
 import Footer from "../Components/Footer.jsx";
-import "../assets/img/card1.png";
-import "../assets/img/card01.png";
-import "../assets/img/card2.png";
-import "../assets/img/card02.png";
-import "../assets/img/card03.png";
-import "../assets/img/card04.png";
-import "../assets/img/card05.png";
-import "../assets/img/card06.jpg";
-import "../assets/img/card07.jpg";
-import "../assets/img/card08.jpg";
+import card1 from "../assets/img/card1.png";
+import card01 from "../assets/img/card01.png";
+import card2 from "../assets/img/card2.png";
+import card02 from "../assets/img/card02.png";
+import card03 from "../assets/img/card03.png";
+import card04 from "../assets/img/card04.png";
+import card05 from "../assets/img/card05.png";
+import card06 from "../assets/img/card06.jpg";
+import card07 from "../assets/img/card07.jpg";
+import card08 from "../assets/img/card08.jpg";
 
 function Home() {
   return (
@@ -33,7 +33,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card1.png" alt="" />
+              <img src={card1} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -47,7 +47,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card2.png" alt="" />
+              <img src={card2} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -64,7 +64,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card01.png" alt="" />
+              <img src={card01} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -78,7 +78,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card02.png" alt="" />
+              <img src={card02} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -92,7 +92,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card03.png" alt="" />
+              <img src={card03} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -106,7 +106,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card04.png" alt="" />
+              <img src={card04} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -120,7 +120,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card05.png" alt="" />
+              <img src={card05} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -134,7 +134,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card06.jpg" alt="" />
+              <img src={card06} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -150,7 +150,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card07.jpg" alt="" />
+              <img src={card07} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
@@ -164,7 +164,7 @@ function Home() {
               className="transition duration-300 transform hover:opacity-60"
               href=""
             >
-              <img src="src/assets/img/card08.jpg" alt="" />
+              <img src={card08} alt="" />
             </a>
             <a
               className="transition duration-300 transform hover:opacity-60"
