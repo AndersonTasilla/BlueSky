@@ -1,6 +1,7 @@
 import React from "react";
 import { FaSearch } from "react-icons/fa";
 import "../style.css";
+import "../assets/img/logobluesky.png";
 
 function Header() {
   return (

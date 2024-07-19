@@ -2,6 +2,16 @@ import React from "react";
 import Header from "./header.jsx";
 import Aside from "./Aside.jsx";
 import Footer from "../Components/Footer.jsx";
+import "../assets/img/card1.png";
+import "../assets/img/card01.png";
+import "../assets/img/card2.png";
+import "../assets/img/card02.png";
+import "../assets/img/card03.png";
+import "../assets/img/card04.png";
+import "../assets/img/card05.png";
+import "../assets/img/card06.jpg";
+import "../assets/img/card07.jpg";
+import "../assets/img/card08.jpg";
 
 function Home() {
   return (
@@ -166,7 +176,7 @@ function Home() {
         </div>
       </div>
       <div className="mt-[530px]">
-        <Footer/>
+        <Footer />
       </div>
     </div>
   );

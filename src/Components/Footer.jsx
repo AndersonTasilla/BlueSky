@@ -14,7 +14,7 @@ function Footer() {
       <div className="bg-gray-100 h-44">
         <div className="flex justify-center space-x-4 gap-1 mr-16">
           <a
-            href="https://anderh4ck0@gmail.com"
+            href=""
             className="text-gray-600 hover:bg-gray-300 hover:rounded-full hover:transition duration-500 hover:duration-500 hover:transform p-2 "
           >
             <EnvelopeIcon className="h-6 w-6" />

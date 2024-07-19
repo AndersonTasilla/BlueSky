@@ -8,6 +8,17 @@ import {
   FaYoutube,
   FaHeart,
 } from "react-icons/fa";
+import "../assets/img/fotoperfil.png"
+import "../assets/img/card1.png";
+import "../assets/img/card01.png";
+import "../assets/img/card02.png";
+import "../assets/img/card03.png";
+import "../assets/img/card04.png";
+import "../assets/img/card05.png";
+import "../assets/img/card06.jpg";
+import "../assets/img/card07.jpg";
+import "../assets/img/card08.jpg";
+import "../assets/img/feed_wht.jpg";
 
 function Aside() {
   return (
@@ -34,7 +45,7 @@ function Aside() {
           <hr className="my-10 w-80" />
           <div className="flex justify-center space-x-4 gap-1 mr-16">
             <a
-              href="https://anderh4ck0@gmail.com"
+              href=""
               className="text-gray-600 hover:bg-gray-200 hover:rounded-full hover:transition duration-500 hover:duration-500 hover:transform p-2 "
             >
               <EnvelopeIcon className="h-6 w-6" />
