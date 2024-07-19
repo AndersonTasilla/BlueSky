@@ -1,7 +1,7 @@
 # BlueSky CLone
 
 -link:
-[BlueSky]()
+[BlueSky](https://bluesky-clone.netlify.app/)
 
 ## Preview
 
